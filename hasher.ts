@@ -1,4 +1,4 @@
-import { crypto } from "crypto/mod.ts";
+import { crypto } from "./deps.ts";
 import { DigestAlgorithm } from "./typings.ts";
 
 const hasher = (input: Uint8Array, algorithm: DigestAlgorithm) => {

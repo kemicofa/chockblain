@@ -1,5 +1,5 @@
-import { crypto } from "crypto/mod.ts";
 import withHasher from "./withHasher.ts";
+import { crypto } from './deps.ts';
 
 export type DigestAlgorithm = Parameters<typeof crypto.subtle.digestSync>[0];
 

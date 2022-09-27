@@ -1,6 +1,0 @@
-{
-  "imports": {
-    "crypto/": "https://deno.land/std@0.147.0/crypto/",
-    "testing/": "https://deno.land/std@0.147.0/testing/"
-  }
-}

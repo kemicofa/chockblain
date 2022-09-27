@@ -1,5 +1,5 @@
 import chockblain from "./mod.ts";
-import { assert, assertEquals, assertThrows } from "testing/asserts.ts";
+import { assert, assertEquals, assertThrows } from "./deps.ts";
 import Blockchain from "./blockchain.ts";
 
 Deno.test("should initiate a blockchain instance", () => {

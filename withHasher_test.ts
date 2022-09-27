@@ -1,4 +1,4 @@
-import { assertEquals } from "testing/asserts.ts";
+import { assertEquals } from "./deps.ts";
 import withHasher from "./withHasher.ts";
 
 Deno.test("should generate a string hash from SHA-256 algorithm", () => {
